@@ -5,7 +5,7 @@ permissions:
 
 on:
   schedule:
-    - cron: "0 4 * * *" # At 12PM UTC+8
+    - cron: "0 18 * * 0"  # 每周日 18:00 UTC = 周一凌晨 5:00 墨尔本时间（夏令时）
   workflow_dispatch:
 
 jobs:
